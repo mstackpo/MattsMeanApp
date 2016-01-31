@@ -1,5 +1,5 @@
 {
-  "name": "mean",
+  "name": "mattsapp",
   "description": "MEAN.io: A fullstack JavaScript framework powered by MongoDB, ExpressJS, AngularJS, NodeJS.",
   "version": "0.5.5",
   "private": false,
@@ -8,7 +8,7 @@
   "mean": "0.5.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/linnovate/mean.git"
+    "url": "git+https://github.com/linnovate/mean.git"
   },
   "license": "MIT",
   "scripts": {
@@ -93,5 +93,13 @@
     "requirejs": "latest",
     "supertest": "latest",
     "through": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/linnovate/mean/issues"
+  },
+  "homepage": "https://github.com/linnovate/mean#readme",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
   }
 }
